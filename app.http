@@ -1,0 +1,25 @@
+
+Send Request 
+POST http://localhost:3000/register
+{
+  "username": "adam_richard",
+  "name": "Adam Richard",
+  "password": "richard_567",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+Send Request 
+POST http://localhost:3000/login
+{
+  "username": "adam_richard",
+  "password": "richard_567"
+} 
+
+Send Request 
+PUT http://localhost:3000/change-password
+{
+  "username": "adam_richard",
+  "oldPassword": "richard_567",
+  "newPassword": "richard@123"
+}
